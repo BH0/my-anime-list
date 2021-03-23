@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Anime List</title>
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --bg-secondary-color: rebeccapurple;
+        /* 
+            --color-primary: #14854F;
+            --color-lightGrey: #d2d6dd;
+            --color-grey: #747681;
+            --color-darkGrey: #3f4144;
+            --color-error: #d43939;
+            --color-success: #28bd14;
+            --grid-maxWidth: 120rem;
+            --grid-gutter: 2rem;
+            --font-size: 1.6rem;
+            --font-color: #333333;
+            --font-family-sans: sans-serif;
+            --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+          */  
+        } 
+        .anime {
+            background-color: var(--bg-secondary-color); 
+        } 
+    </style>
+</head>
+<body>
+    <div id="anime-list"></div>
+    <div id="post-anime">
+        <!-- 
+		- rating: good/meh/bad
+		- soundtrack: good/meh/bad 
+		- platform: netflix/... 
+        -->
+        <input type="text" id="anime-input" />
+        <input type="submit" id="submit" />
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
